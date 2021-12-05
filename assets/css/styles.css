@@ -1,3 +1,12 @@
 #about-panels-container {
     margin-top: 16px;
 }
+
+.testimonials-container-title {
+    background: #0275D8;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 24px;
+}
