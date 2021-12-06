@@ -117,15 +117,15 @@
     <section>
 
         <h2 class="container testimonials-container-title">Depoimentos de Clientes </h2>
-    
+
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    
+
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0"> </li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"> </li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"> </li>
             </ol>
-        
+
             <div class="carousel-inner" role="listbox">
                 <figure class="item active">
                     <img src="assets/img/depoimentos/projetos0.png">
@@ -149,16 +149,16 @@
                     </figcaption>
                 </figure>
             </div>
-    
+
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-              </a>
-    
+            </a>
+
         </div>
 
     </section>
@@ -167,8 +167,56 @@
 
         <h2>Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2t8ycK8D4Rk" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2t8ycK8D4Rk" frameborder="0"
+                allowfullscreen></iframe>
         </div>
+
+    </section>
+
+    <section class="container">
+
+        <h2>Contato</h2>
+        <p>Entre em contato conosco</p>
+        <form>
+            <div class="form-group">
+                <label for="contact-name">Nome:</label>
+                <input class="form-control" id="contact-name" placeholder="Seu nome" type="text">
+            </div>
+            <div class="form-group">
+                <label for="contact-email">E-mail:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" id="contact-email" placeholder="Seu E-mail" type="email">
+                </div>
+            </div>
+
+            <div class="radio-container">
+
+                <div class="radio">
+                    <label>
+                        <input checked type="radio" name="person-type">
+                        Pessoa Física
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="person-type">
+                        Pessoa Jurídica
+                    </label>
+                </div>
+
+            </div>
+
+            <select class="form-control select-situation-type">
+                <option selected disabled>Tipo de Situação</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+                <option>Mansão</option>
+            </select>
+
+            <button class="btn btn-primary form-control" type="submit">Enviar</button>
+
+        </form>
 
     </section>
 

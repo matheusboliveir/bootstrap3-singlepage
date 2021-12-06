@@ -10,3 +10,14 @@
     margin-bottom: 0;
     font-size: 24px;
 }
+
+.select-situation-type,
+.radio-container {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio-container .radio:first-child {
+    margin-top: 0;
+}
