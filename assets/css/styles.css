@@ -21,3 +21,14 @@
 .radio-container .radio:first-child {
     margin-top: 0;
 }
+
+footer {
+    margin-top: 16px;
+    background: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
