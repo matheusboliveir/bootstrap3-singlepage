@@ -4,8 +4,7 @@
 
 .testimonials-container-title {
     background: #0275D8;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 16px;
     color: #ffffff;
     margin-bottom: 0;
     font-size: 24px;
@@ -59,4 +58,23 @@ header h1 {
     left: 50%;
     transform:  translate(-50%, -50%);
     transition: 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+    #about-panels-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .topcasafina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+
+    .topCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
 }
