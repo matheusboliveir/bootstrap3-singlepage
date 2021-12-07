@@ -2,6 +2,10 @@
     margin-top: 16px;
 }
 
+.carousel-img {
+    width:100%
+}
+
 .testimonials-container-title {
     background: #0275D8;
     padding: 32px 16px;
